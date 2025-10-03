@@ -1,5 +1,5 @@
 # quickdraw-neural-network
-simple feedforward neural network trained on google's quickdraw dataset. frontend developed using streamlit on localhost to draw on a canvas and have the network guess your doodle. it's like __% accurate with pretty basic stuff like softmax, relu, and no cnn. project uses no tensorflow or pytorch, just numpy.
+simple feedforward neural network trained on google's quickdraw dataset. frontend developed using streamlit on localhost to draw on a canvas and have the network guess your doodle. it's like 60% accurate with pretty basic stuff like softmax, relu, and no cnn. project uses no tensorflow or pytorch, just numpy.
 
 quickdraw dataset: https://quickdraw.withgoogle.com/data 
 most of the doodles have over a hundred thousand entries, so I use way less (default parameters below)
